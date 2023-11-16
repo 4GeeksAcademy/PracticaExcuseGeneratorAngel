@@ -37,4 +37,5 @@ window.onload = function() {
   ];
   let fraserandom = generadorexcusas(who, action, what, when);
   document.querySelector("#excuse").innerHTML = fraserandom;
+  console.log(fraserandom);
 };
